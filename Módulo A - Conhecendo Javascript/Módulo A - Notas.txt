@@ -1,4 +1,0 @@
-################# Alterando elementos dentro de um site #########################
-
-> document.querySelector('nome do elemento da página').innerText = 'texto' >>> Muda o texto do elemento selecionado.
-> document.body.style.background = 'cor' >>> muda a cor de fundo do site.
