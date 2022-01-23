@@ -1,0 +1,12 @@
+################# Alterando elementos dentro de um site #########################
+
+> document.querySelector('nome do elemento da página').innerText = 'texto' --> Altera o texto de um elemento da página.
+
+> document.querySelector('nome da imagem').style.filter = 'cor' --> Muda o filtro de uma imagem
+
+> document.body.style.background = 'cor' --> Muda a cor do fundo do site.
+
+############# Bibliografia básica ########################################
+
+Javascript, o guia definitivo: O'Reilly; (livro)
+Guia de referência da Mozilla (Guia web) --> developer.mozilla.org
