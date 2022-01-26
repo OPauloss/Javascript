@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+</head>
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+    <p><strong>DOM</strong> (Document Object Model)</p>
+    <dl>
+        <dt>window</dt>
+        <dd>Janela do navegador</dd>
+        <dt>location</dt>
+        <dd>URL do site, localização da página</dd>
+        <dt>document</dt>
+        <dd>HTML da página</dd>
+        <dt>history</dt>
+        <dd>Guarda o histórico de navegação</dd>
+    </dl>
+    <script>
+        window.document.write('Olá, mundo!')
+        window.document.write(window.navigator.appName)
+        window.document.write(window.navigator.URL)
+
+        var p1 = document.getElementsByTagName('p')[0] // pega o primeiro parágrafo que apareceu
+        document.write(p1.innerText) // Mostra o texto do parágrafo
+        document.getElementsByTagName('p')[0] // Mostra o texto do parágrafo com todas as formatações
+    </script>
+</body>
+</html>

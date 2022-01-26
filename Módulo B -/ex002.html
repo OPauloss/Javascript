@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /* Declarando e convertendo variáveis */
+        var n1 = Number(window.prompt('Digite um número:')) // -> Convertendo variável
+        var n2 = Number(window.prompt('Digite outro número:')) // -> Convertendo variável
+        var soma = n1 + n2
+        window.alert('A soma dos valores é ' + soma)
+
+        /* Usando template strings */
+
+        var s = 'JavaScript'
+        document.write(`Eu estou aprendendo ${s}`)
+        // é necessário usar acento grave como aspas para a template string funcionar
+
+        /* Formatando strings */
+        var n1 = 1543.5
+        n1.toFixed(2) // -> fixa o número em duas casas decimais
+        n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) // localiza a string para o formato de outro país, e a moeda para BRL
+    </script>
+</body>
+</html>

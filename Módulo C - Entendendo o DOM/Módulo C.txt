@@ -1,0 +1,8 @@
+###################### Selecionando elementos da página ########################
+
+- Podemos selecionar um elemento por:
+• Marca - getElementByTagName()
+• ID - getElementById()
+• Nome - getElementByName()
+• Classe - getElementByClassName()
+• Seletor - querySelector()
