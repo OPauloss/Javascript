@@ -1,0 +1,17 @@
+body{
+    background-color: #aaaaaa;
+}
+h1{
+    text-align: center;
+}
+main{
+    background-color: white;
+    max-width: 600px;
+    height: 350px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+#tabuada p{
+    margin: 5px;
+}
