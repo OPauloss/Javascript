@@ -1,0 +1,19 @@
+body{
+    background-color: #4085D8;
+}
+header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+}
+main{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+select{
+    width: 200px;
+}
